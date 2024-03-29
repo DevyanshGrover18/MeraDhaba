@@ -60,4 +60,18 @@ textarea:focus, input:focus{
 .close-icon {
     font-size: 0.8rem; 
   }
+
+  table {
+    padding: 20px;
+    table-layout: fixed; 
+    width: 100%
+  }
   
+  td {
+    word-wrap: break-word;
+    text-align: center;
+  }
+ 
+  a:hover {
+    color: #00F
+ }
