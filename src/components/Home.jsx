@@ -116,7 +116,7 @@ const Home = () => {
                   Non-Veg{" "}
                 </div>
               </div>
-              <div className="flex gap-[40px] sm:justify-center  flex-wrap">
+              <div className="flex gap-[40px] flex-wrap">
                 {foodItem &&
                   foodItem
                     .filter((item) => {
