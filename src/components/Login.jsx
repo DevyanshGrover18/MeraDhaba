@@ -8,7 +8,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/user/ouruser", {
+      const response = await fetch("https://meradhaba.netlify.app/user/ouruser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
