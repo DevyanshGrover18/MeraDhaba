@@ -8,7 +8,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/user/ouruser", {
+      const response = await fetch("https://mera-dhaba.onrender.com/user/ouruser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

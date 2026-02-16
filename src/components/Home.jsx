@@ -39,7 +39,7 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/user/foodData", { method: "POST" })
+    fetch("https://mera-dhaba.onrender.com/user/foodData", { method: "POST" })
       .then(r => r.json())
       .then(data => setFoodItems(data))
       .catch(console.error);
